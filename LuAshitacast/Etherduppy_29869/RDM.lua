@@ -14,190 +14,188 @@ local bindings = {
 --         GEAR SETS
 -- ==========================
 local sets = {
-    Idle_Default_Priority  = {
-        Main = {
-                    { Name = "Wis.Wiz. Anelace"},
-                    { Name = "Beestinger"},
-                },
-                Sub = { 
-                    { Name = "Wis.Wiz. Anelace" },
-                },
-        Body = {
-                    { Name = "Malignance Tabard" },
-                    { Name = "Warlock's Tabard" },
-                    { Name = "Garrison Tunica +1" },
-                    { Name = "Leather Vest" },
-                },
-        Hands = { 
-                    { Name = "Malignance Gloves" },
-                    { Name = "Warlock's Gloves" },
-                    { Name = "Garrison Gloves" },
-                    { Name = "Leather Gloves" },
-                },
-        Head = { 
-                    { Name = "Malignance Chapeau" },
-                    { Name = "Warlock's Chapeau" },
-                    { Name = "Gambler's Chapeau" },
-                    { Name = "Leather Bandana" },
-                },
-                Legs = {
-                     { Name = "Malignance Tights" },
-                     { Name = "Warlock's Tights" },
-                     { Name = "Garrison Hose +1" },
-                     { Name = "Leather Trousers" }, 
-                    },
-                Feet = {
-                     { Name = "Malignance Boots" },
-                     { Name = "Warlock's Boots" },
-                     { Name = "Garrison Boots" },
-                     { Name = "Leaping Boots" }, 
-                    },
-                Neck = {
-                     { Name = "Spider Torque" } 
-                    },
-                Ear1 = {
-                     { Name = "Helenus's Earring" } 
-                    },
-                Ear2 = {
-                     { Name = "Cass. Earring" } 
-                    },
-                Ring1 = {
-                     { Name = "Bastokan Ring" } 
-                    },
-                Ring2 = {
-                     { Name = "Provenance Ring" } 
-                    },
-                Back = {
-                     { Name = "Fed. Army Mantle" } 
-                    },
-                Waist = {
-                     { Name = "Ryl.Kgt. Belt" } 
-                    },
-                Range = {
-                     { Name = "" } 
-                    },
-                Ammo = {
-                     { Name = "" } 
-                    },
+    Idle_Default_Priority = {
+        Main   = {
+            { Name = "Wis.Wiz. Anelace" },
+            { Name = "Beestinger" }
+        },
+        Sub    = {
+            { Name = "Wis.Wiz. Anelace" }
+        },
+        Body   = {
+            { Name = "Malignance Tabard" },
+            { Name = "Warlock's Tabard" },
+            { Name = "Garrison Tunica +1" },
+            { Name = "Leather Vest" }
+        },
+        Hands  = {
+            { Name = "Malignance Gloves" },
+            { Name = "Warlock's Gloves" },
+            { Name = "Garrison Gloves" },
+            { Name = "Leather Gloves" }
+        },
+        Head   = {
+            { Name = "Malignance Chapeau" },
+            { Name = "Warlock's Chapeau" },
+            { Name = "Gambler's Chapeau" },
+            { Name = "Leather Bandana" }
+        },
+        Legs   = {
+            { Name = "Malignance Tights" },
+            { Name = "Warlock's Tights" },
+            { Name = "Garrison Hose +1" },
+            { Name = "Leather Trousers" }
+        },
+        Feet   = {
+            { Name = "Malignance Boots" },
+            { Name = "Warlock's Boots" },
+            { Name = "Garrison Boots" },
+            { Name = "Leaping Boots" }
+        },
+        Neck   = {
+            { Name = "Spider Torque" }
+        },
+        Ear1   = {
+            { Name = "Helenus's Earring" }
+        },
+        Ear2   = {
+            { Name = "Cass. Earring" }
+        },
+        Ring1  = {
+            { Name = "Bastokan Ring" }
+        },
+        Ring2  = {
+            { Name = "Provenance Ring" }
+        },
+        Back   = {
+            { Name = "Fed. Army Mantle" }
+        },
+        Waist  = {
+            { Name = "Ryl.Kgt. Belt" }
+        },
+        Range  = {
+            { Name = "" }
+        },
+        Ammo   = {
+            { Name = "" }
+        }
     },
     Resting_Default_Priority = {
-        Main =  { { Name = "Pilgrim's Wand" } },
-                Sub = { { Name = "Wis.Wiz. Anelace" } },
-        Body = { { Name = "Malignance Tabard" } },
-        Hands = { { Name = "Malignance Gloves" } },
-        Head = { { Name = "Malignance Chapeau" } },
-                Legs = { { Name = "Malignance Tights" } },
-                Feet = { { Name = "Malignance Boots" } },
-                Neck = { { Name = "Spider Torque" } },
-                Ear1 = { { Name = "Helenus's Earring" } },
-                Ear2 = { { Name = "Cass. Earring" } },
-                Ring1 = { { Name = "Bastokan Ring" } },
-                Ring2 = { { Name = "Provenance Ring" } },
-                Back = { { Name = "Fed. Army Mantle" } },
-                Waist = { { Name = "Ryl.Kgt. Belt" } },
-                Range = { { Name = "" } },
-                Ammo = { { Name = "" } },
+        Main   = { { Name = "Pilgrim's Wand" } },
+        Sub    = { { Name = "Wis.Wiz. Anelace" } },
+        Body   = { { Name = "Malignance Tabard" } },
+        Hands  = { { Name = "Malignance Gloves" } },
+        Head   = { { Name = "Malignance Chapeau" } },
+        Legs   = { { Name = "Malignance Tights" } },
+        Feet   = { { Name = "Malignance Boots" } },
+        Neck   = { { Name = "Spider Torque" } },
+        Ear1   = { { Name = "Helenus's Earring" } },
+        Ear2   = { { Name = "Cass. Earring" } },
+        Ring1  = { { Name = "Bastokan Ring" } },
+        Ring2  = { { Name = "Provenance Ring" } },
+        Back   = { { Name = "Fed. Army Mantle" } },
+        Waist  = { { Name = "Ryl.Kgt. Belt" } },
+        Range  = { { Name = "" } },
+        Ammo   = { { Name = "" } },
     },
     Engaged_Default_Priority = {
-        Main = {
-                    { Name = "Wis.Wiz. Anelace"},
-                    { Name = "Beestinger"},
-                },
-                Sub = { { Name = "Wis.Wiz. Anelace" } },
-        Body = { { Name = "Malignance Tabard" } },
-        Hands = { { Name = "Malignance Gloves" } },
-        Head = { { Name = "Malignance Chapeau" } },
-                Legs = { { Name = "Malignance Tights" } },
-                Feet = { { Name = "Malignance Boots" } },
-                Neck = { { Name = "Spider Torque" } },
-                Ear1 = { { Name = "Helenus's Earring" } },
-                Ear2 = { { Name = "Cass. Earring" } },
-                Ring1 = { { Name = "Bastokan Ring" } },
-                Ring2 = { { Name = "Provenance Ring" } },
-                Back = { { Name = "Fed. Army Mantle" } },
-                Waist = { { Name = "Ryl.Kgt. Belt" } },
-                Range = { { Name = "" } },
-                Ammo = { { Name = "" } },
+        Main   = {
+            { Name = "Wis.Wiz. Anelace" },
+            { Name = "Beestinger" }
+        },
+        Sub    = { { Name = "Wis.Wiz. Anelace" } },
+        Body   = { { Name = "Malignance Tabard" } },
+        Hands  = { { Name = "Malignance Gloves" } },
+        Head   = { { Name = "Malignance Chapeau" } },
+        Legs   = { { Name = "Malignance Tights" } },
+        Feet   = { { Name = "Malignance Boots" } },
+        Neck   = { { Name = "Spider Torque" } },
+        Ear1   = { { Name = "Helenus's Earring" } },
+        Ear2   = { { Name = "Cass. Earring" } },
+        Ring1  = { { Name = "Bastokan Ring" } },
+        Ring2  = { { Name = "Provenance Ring" } },
+        Back   = { { Name = "Fed. Army Mantle" } },
+        Waist  = { { Name = "Ryl.Kgt. Belt" } },
+        Range  = { { Name = "" } },
+        Ammo   = { { Name = "" } }
     },
 
     Precast_Default_Priority = {
-                -- Fast Cast pieces here
-        Main = { { Name = "Wis.Wiz. Anelace" } },
-                Sub = { { Name = "Wis.Wiz. Anelace" } },
-        Body = { { Name = "Malignance Tabard" } },
-        Hands = { { Name = "Malignance Gloves" } },
-        Head = { { Name = "Malignance Chapeau" } },
-                Legs = { { Name = "Malignance Tights" } },
-                Feet = { { Name = "Malignance Boots" } },
-                Neck = { { Name = "Spider Torque" } },
-                Ear1 = { { Name = "Helenus's Earring" } },
-                Ear2 = { { Name = "Cass. Earring" } },
-                Ring1 = { { Name = "Bastokan Ring" } },
-                Ring2 = { { Name = "Provenance Ring" } },
-                Back = { { Name = "Fed. Army Mantle" } },
-                Waist = { { Name = "Ryl.Kgt. Belt" } },
-                Range = { { Name = "" } },
-                Ammo = { { Name = "" } },
+        -- Fast Cast pieces here
+        Main   = { { Name = "Wis.Wiz. Anelace" } },
+        Sub    = { { Name = "Wis.Wiz. Anelace" } },
+        Body   = { { Name = "Malignance Tabard" } },
+        Hands  = { { Name = "Malignance Gloves" } },
+        Head   = { { Name = "Malignance Chapeau" } },
+        Legs   = { { Name = "Malignance Tights" } },
+        Feet   = { { Name = "Malignance Boots" } },
+        Neck   = { { Name = "Spider Torque" } },
+        Ear1   = { { Name = "Helenus's Earring" } },
+        Ear2   = { { Name = "Cass. Earring" } },
+        Ring1  = { { Name = "Bastokan Ring" } },
+        Ring2  = { { Name = "Provenance Ring" } },
+        Back   = { { Name = "Fed. Army Mantle" } },
+        Waist  = { { Name = "Ryl.Kgt. Belt" } },
+        Range  = { { Name = "" } },
+        Ammo   = { { Name = "" } }
     },
     Precast_HealingMagic_Priority = {
-                -- Fast Cast pieces here
-        Main = { { Name = "Wis.Wiz. Anelace" } },
-                Sub = { { Name = "Wis.Wiz. Anelace" } },
-        Body = { { Name = "Malignance Tabard" } },
-        Hands = { { Name = "Malignance Gloves" } },
-        Head = { { Name = "Malignance Chapeau" } },
-                Legs = { { Name = "Malignance Tights" } },
-                Feet = { { Name = "Malignance Boots" } },
-                Neck = { { Name = "Spider Torque" } },
-                Ear1 = { { Name = "Helenus's Earring" } },
-                Ear2 = { { Name = "Cass. Earring" } },
-                Ring1 = { { Name = "Bastokan Ring" } },
-                Ring2 = { { Name = "Provenance Ring" } },
-                Back = { { Name = "Fed. Army Mantle" } },
-                Waist = { { Name = "Ryl.Kgt. Belt" } },
-                Range = { { Name = "" } },
-                Ammo = { { Name = "" } },
-
+        -- Fast Cast pieces here
+        Main   = { { Name = "Wis.Wiz. Anelace" } },
+        Sub    = { { Name = "Wis.Wiz. Anelace" } },
+        Body   = { { Name = "Malignance Tabard" } },
+        Hands  = { { Name = "Malignance Gloves" } },
+        Head   = { { Name = "Malignance Chapeau" } },
+        Legs   = { { Name = "Malignance Tights" } },
+        Feet   = { { Name = "Malignance Boots" } },
+        Neck   = { { Name = "Spider Torque" } },
+        Ear1   = { { Name = "Helenus's Earring" } },
+        Ear2   = { { Name = "Cass. Earring" } },
+        Ring1  = { { Name = "Bastokan Ring" } },
+        Ring2  = { { Name = "Provenance Ring" } },
+        Back   = { { Name = "Fed. Army Mantle" } },
+        Waist  = { { Name = "Ryl.Kgt. Belt" } },
+        Range  = { { Name = "" } },
+        Ammo   = { { Name = "" } }
     },
     Precast_EnfeeblingMagic_Priority = {
-                -- Fast Cast pieces here
-        Main = { { Name = "Wis.Wiz. Anelace" } },
-                Sub = { { Name = "Wis.Wiz. Anelace" } },
-        Body = { { Name = "Malignance Tabard" } },
-        Hands = { { Name = "Malignance Gloves" } },
-        Head = { { Name = "Malignance Chapeau" } },
-                Legs = { { Name = "Malignance Tights" } },
-                Feet = { { Name = "Malignance Boots" } },
-                Neck = { { Name = "Spider Torque" } },
-                Ear1 = { { Name = "Helenus's Earring" } },
-                Ear2 = { { Name = "Cass. Earring" } },
-                Ring1 = { { Name = "Bastokan Ring" } },
-                Ring2 = { { Name = "Provenance Ring" } },
-                Back = { { Name = "Fed. Army Mantle" } },
-                Waist = { { Name = "Ryl.Kgt. Belt" } },
-                Range = { { Name = "" } },
-                Ammo = { { Name = "" } },
-
+        -- Fast Cast pieces here
+        Main   = { { Name = "Wis.Wiz. Anelace" } },
+        Sub    = { { Name = "Wis.Wiz. Anelace" } },
+        Body   = { { Name = "Malignance Tabard" } },
+        Hands  = { { Name = "Malignance Gloves" } },
+        Head   = { { Name = "Malignance Chapeau" } },
+        Legs   = { { Name = "Malignance Tights" } },
+        Feet   = { { Name = "Malignance Boots" } },
+        Neck   = { { Name = "Spider Torque" } },
+        Ear1   = { { Name = "Helenus's Earring" } },
+        Ear2   = { { Name = "Cass. Earring" } },
+        Ring1  = { { Name = "Bastokan Ring" } },
+        Ring2  = { { Name = "Provenance Ring" } },
+        Back   = { { Name = "Fed. Army Mantle" } },
+        Waist  = { { Name = "Ryl.Kgt. Belt" } },
+        Range  = { { Name = "" } },
+        Ammo   = { { Name = "" } }
     },
 
     Midcast_Default_Priority = {
         -- Magic skill/MAB pieces here
-                Main = { { Name = "Wis.Wiz. Anelace" } },
-                Sub = { { Name = "Wis.Wiz. Anelace" } },
-        Body = { { Name = "Malignance Tabard" } },
-        Hands = { { Name = "Malignance Gloves" } },
-        Head = { { Name = "Malignance Chapeau" } },
-                Legs = { { Name = "Malignance Tights" } },
-                Feet = { { Name = "Malignance Boots" } },
-                Neck = { { Name = "Spider Torque" } },
-                Ear1 = { { Name = "Helenus's Earring" } },
-                Ear2 = { { Name = "Cass. Earring" } },
-                Ring1 = { { Name = "Bastokan Ring" } },
-                Ring2 = { { Name = "Provenance Ring" } },
-                Back = { { Name = "Fed. Army Mantle" } },
-                Waist = { { Name = "Ryl.Kgt. Belt" } },
-                Range = { { Name = "" } },
-                Ammo = { { Name = "" } },
+        Main   = { { Name = "Wis.Wiz. Anelace" } },
+        Sub    = { { Name = "Wis.Wiz. Anelace" } },
+        Body   = { { Name = "Malignance Tabard" } },
+        Hands  = { { Name = "Malignance Gloves" } },
+        Head   = { { Name = "Malignance Chapeau" } },
+        Legs   = { { Name = "Malignance Tights" } },
+        Feet   = { { Name = "Malignance Boots" } },
+        Neck   = { { Name = "Spider Torque" } },
+        Ear1   = { { Name = "Helenus's Earring" } },
+        Ear2   = { { Name = "Cass. Earring" } },
+        Ring1  = { { Name = "Bastokan Ring" } },
+        Ring2  = { { Name = "Provenance Ring" } },
+        Back   = { { Name = "Fed. Army Mantle" } },
+        Waist  = { { Name = "Ryl.Kgt. Belt" } },
+        Range  = { { Name = "" } },
+        Ammo   = { { Name = "" } }
     },
     WS_Default_Priority = {
         -- WS pieces here
