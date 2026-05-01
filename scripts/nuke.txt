@@ -1,0 +1,32 @@
+/ma "Thunder III" %0%
+/wait 7
+/ma "Blizzard III" %0%
+/wait 7
+/ma "Fire III" %0%
+/wait 7
+/ma "Thunder III" %0%
+/wait 7
+/ma "Blizzard III" %0%
+/wait 7
+/ma "Fire III" %0%
+/wait 7
+/ma "Thunder III" %0%
+/wait 7
+/ma "Blizzard III" %0%
+/wait 7
+/ma "Fire III" %0%
+/wait 7
+/ma "Thunder III" %0%
+/wait 7
+/ma "Blizzard III" %0%
+/wait 7
+/ma "Fire III" %0%
+/wait 7
+/ma "Thunder III" %0%
+/wait 7
+/ma "Blizzard III" %0%
+/wait 7
+/ma "Fire III" %0%
+/wait 7
+/echo "Script Complete"
+
